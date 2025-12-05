@@ -1,6 +1,6 @@
 package com.jellerijk.aoc.aoc2025;
 
-import com.jellerijk.aoc.aoc2025.gui.main.MainView;
+import com.jellerijk.aoc.aoc2025.main.gui.MainView;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
