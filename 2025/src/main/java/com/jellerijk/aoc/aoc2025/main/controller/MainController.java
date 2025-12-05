@@ -3,7 +3,7 @@ package com.jellerijk.aoc.aoc2025.main.controller;
 import java.util.List;
 
 import com.jellerijk.aoc.aoc2025.main.dtos.SolutionDTO;
-import com.jellerijk.aoc.aoc2025.util.Controller;
+import com.jellerijk.aoc.aoc2025.util.interfaces.Controller;
 
 import javafx.scene.Node;
 

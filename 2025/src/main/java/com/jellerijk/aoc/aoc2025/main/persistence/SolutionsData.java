@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.jellerijk.aoc.aoc2025.main.domain.Solution;
 import com.jellerijk.aoc.aoc2025.main.domain.SolutionImpl;
+import com.jellerijk.aoc.aoc2025.solutions.day1.gui.Day1GUI;
 
 import javafx.scene.Node;
 
@@ -12,11 +13,11 @@ public class SolutionsData {
 	public static List<Solution> getSolutions() {
 		List<Solution> solutions = new ArrayList<Solution>();
 
-		addSolution(solutions, 1);
-		addSolution(solutions, 2);
-		addSolution(solutions, 3);
-		addSolution(solutions, 4);
-		addSolution(solutions, 5);
+		addSolution(solutions, 1, "Secret Entrance", new Day1GUI());
+		addSolution(solutions, 2, "Gift Shop");
+		addSolution(solutions, 3, "Lobby");
+		addSolution(solutions, 4, "Printing Department");
+		addSolution(solutions, 5, "Cafeteria");
 		addSolution(solutions, 6);
 		addSolution(solutions, 7);
 		addSolution(solutions, 8);

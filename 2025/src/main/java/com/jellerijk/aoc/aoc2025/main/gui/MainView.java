@@ -2,10 +2,11 @@ package com.jellerijk.aoc.aoc2025.main.gui;
 
 import com.jellerijk.aoc.aoc2025.main.controller.MainController;
 import com.jellerijk.aoc.aoc2025.main.controller.MainControllerImpl;
-import com.jellerijk.aoc.aoc2025.util.PublisherMessage;
-import com.jellerijk.aoc.aoc2025.util.PublisherMessageType;
-import com.jellerijk.aoc.aoc2025.util.Subscriber;
+import com.jellerijk.aoc.aoc2025.util.interfaces.PublisherMessage;
+import com.jellerijk.aoc.aoc2025.util.interfaces.PublisherMessageType;
+import com.jellerijk.aoc.aoc2025.util.interfaces.Subscriber;
 
+import javafx.geometry.Insets;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
@@ -36,6 +37,7 @@ public class MainView extends BorderPane implements Subscriber {
 		} else {
 			setCenter(gui);
 		}
+		setMargin(getCenter(), new Insets(15));
 	}
 
 	public void update(PublisherMessage message) {

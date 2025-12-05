@@ -1,4 +1,4 @@
-package com.jellerijk.aoc.aoc2025.util;
+package com.jellerijk.aoc.aoc2025.util.interfaces;
 
 public record PublisherMessage(Publisher source, PublisherMessageType type, String payload) {
 	public static PublisherMessage empty() {

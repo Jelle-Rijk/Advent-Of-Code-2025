@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.jellerijk.aoc.aoc2025.main.dtos.SolutionDTO;
-import com.jellerijk.aoc.aoc2025.util.Publisher;
-import com.jellerijk.aoc.aoc2025.util.PublisherMessage;
-import com.jellerijk.aoc.aoc2025.util.PublisherMessageType;
-import com.jellerijk.aoc.aoc2025.util.Subscriber;
+import com.jellerijk.aoc.aoc2025.util.interfaces.Publisher;
+import com.jellerijk.aoc.aoc2025.util.interfaces.PublisherMessage;
+import com.jellerijk.aoc.aoc2025.util.interfaces.PublisherMessageType;
+import com.jellerijk.aoc.aoc2025.util.interfaces.Subscriber;
 
 import javafx.scene.Node;
 import javafx.scene.control.ListCell;
