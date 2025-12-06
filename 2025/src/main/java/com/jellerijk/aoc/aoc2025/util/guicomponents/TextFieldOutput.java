@@ -31,6 +31,10 @@ public class TextFieldOutput extends VBox {
 		errorLabel.setText(error);
 	}
 
+	public void setOutput(long output) {
+		setOutput(Long.toString(output));
+	}
+
 	public void setOutput(int output) {
 		setOutput(Integer.toString(output));
 	}

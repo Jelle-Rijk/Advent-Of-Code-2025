@@ -6,6 +6,8 @@ import java.util.List;
 import com.jellerijk.aoc.aoc2025.main.domain.Solution;
 import com.jellerijk.aoc.aoc2025.main.domain.SolutionImpl;
 import com.jellerijk.aoc.aoc2025.solutions.day1.gui.Day1GUI;
+import com.jellerijk.aoc.aoc2025.solutions.day2.gui.Day2GUI;
+import com.jellerijk.aoc.aoc2025.solutions.day3.gui.Day3GUI;
 
 import javafx.scene.Node;
 
@@ -14,8 +16,8 @@ public class SolutionsData {
 		List<Solution> solutions = new ArrayList<Solution>();
 
 		addSolution(solutions, 1, "Secret Entrance", new Day1GUI());
-		addSolution(solutions, 2, "Gift Shop");
-		addSolution(solutions, 3, "Lobby");
+		addSolution(solutions, 2, "Gift Shop", new Day2GUI());
+		addSolution(solutions, 3, "Lobby", new Day3GUI());
 		addSolution(solutions, 4, "Printing Department");
 		addSolution(solutions, 5, "Cafeteria");
 		addSolution(solutions, 6);
